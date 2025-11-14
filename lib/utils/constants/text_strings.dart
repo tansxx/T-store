@@ -1,67 +1,20 @@
-class TSizes {
-  // Padding and margin sizes
-  static const double sx = 4.0;
-  static const double sm = 8.0;
-  static const double md = 16.0;
-  static const double lg = 24.0;
-  static const double xl = 32.0;
+// This class contains all the App Text in String formats
+class TTexts {
+  // -- GLOBAL Texts
 
-  // Icon sizes
-  static const double iconXs = 12.0;
-  static const double iconSm = 16.0;
-  static const double iconMd = 24.0;
-  static const double iconLg = 32.0;
+  // -- OnBoarding Texts
+  static const String onBoardingTitle1 = "Chosse your product";
+  static const String onBoardingTitle2 = "Select Payment Method";
+  static const String onBoardingTitle3 = "Deliver at your door step";
 
-  //Font sizes
-  static const double fontSizeSm = 14.0;
-  static const double fontSizeMd = 16.0;
-  static const double fontSizeLg = 18.0;
+  static const String onBoardinSubTitle1 =
+      "Welcome to a World of Limitless Choices - Your Perfect Product Awaits!";
+  static const String onBoardinSubTitle2 =
+      "For Seamless Transactions, Choose Your Payment Path - YourConvenience, Our Priority!";
+  static const String onBoardinSubTitle3 =
+      "From Our Doorstep to Yours - Swift, Secure, and Contactless Delivery!";
 
-  // Button sizes
-  static const double buttonHeight = 18.0;
-  static const double buttonRadius = 12.0;
-  static const double buttonWidth = 120.0;
-  static const double buttonElevation = 4.0;
-
-  // AppBar height
-  static const double appBarHeight = 56.0;
-
-  // Image sizes
-  static const double imageThumbSize = 80.0;
-
-  // Default spacing between sections
-  static const double defaultSpace = 24.0;
-  static const double spaceBtwItems = 16.0;
-  static const double spaceBtwSections = 32.0;
-
-  // Border radius
-  static const double borderRadiusSm = 4.0;
-  static const double borderRadiusMd = 8.0;
-  static const double borderRadiusLg = 12.0;
-
-  // Divider height
-  static const double dividerHeight = 1.0;
-
-  // Product item dimensions
-  static const double productImageSize = 120.0;
-  static const double productImageRadius = 16.0;
-  static const double productImageHeight = 160.0;
-
-  // Input field
-  static const double inputFieldRadius = 12.0;
-  static const double spaceBtwInputFields = 16.0;
-
-  // Card sizes
-  static const double cardRadiusLg = 16.0;
-  static const double cardRadiusMd = 12.0;
-  static const double cardRadiusSm = 10.0;
-  static const double cardRadiusXs = 6.0;
-  static const double cardElevation = 2.0;
-
-  // Image carousel height
-  static const double imageCarouselHeight = 200.0;
-
-  // Loading indicator size
-  static const double loadingindicatorSize = 36.0;
-  static const double gridViewSpacing = 16.0;
+  // -- Home
+  static const String homeAppbarTitle = "Good day for shopping";
+  static const String homeAppbarSubTitle = "Taimoor Sikander";
 }
