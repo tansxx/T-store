@@ -35,11 +35,7 @@ class TLoggerHelper {
   ///
   /// [error] : 에러 객체 (optional)
   /// [stackTrace] : 오류 발생 위치 추적용 스택 정보
-  static void error(String message, {Object? error, StackTrace? stackTrace}) {
-    _logger.e(
-      message,
-      error: error,
-      stackTrace: stackTrace ?? StackTrace.current,
-    );
+  static void error(String message, [dynamic error]) {
+    _logger.e(message, error: error, stackTrace: StackTrace.current);
   }
 }
